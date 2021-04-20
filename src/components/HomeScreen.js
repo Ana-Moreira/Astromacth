@@ -19,7 +19,7 @@ function HomeScreen(props) {
   const  [ choose, setChoose ] = useState(true)
   const  [ noChoose, setNoChoose ] = useState(true)
   const [ profiles, setProfiles ] = useState([])
-  const [ animationState, setAnimationState ] = useState({
+  const [ animationState ] = useState({
       isStopped: false, isPaused: false
   })
 

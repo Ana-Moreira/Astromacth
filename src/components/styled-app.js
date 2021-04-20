@@ -6,4 +6,5 @@ export const AppConteiner = styled.div`
    width: 100vw;
    margin: 0;
    position: absolute;
+   
 `

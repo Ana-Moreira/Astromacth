@@ -1,4 +1,3 @@
-
 import React from 'react'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
@@ -15,7 +14,7 @@ import Lottie from 'react-lottie';
 
 function MatchScreen(props) {
   const [MatchList, setMatchList] = useState([])
-  const [animationState, setAnimationState] = useState({
+  const [animationState] = useState({
      isStopped: false, isPaused: false
   })
 
